@@ -1,0 +1,60 @@
+generated: '2026-07-19'
+method: searched
+source: https://registry.npmjs.org/heyzap-cordova
+note: >-
+  Heyzap was a mobile-game advertising / monetization SDK company (acquired by
+  Fyber, now part of Digital Turbine). It never shipped a public REST API; its
+  developer surface was mobile ad-mediation SDKs (iOS, Android, Unity, Cordova,
+  Adobe AIR/ANE). The heyzap.com domain is now parked/for-sale, and
+  developers.heyzap.com no longer resolves. The first-party client libraries
+  below are historical and unmaintained (last published 2022), preserved here
+  from the npm registry and the github.com/Heyzap organization.
+packages:
+  - language: javascript
+    registry: npm
+    name: heyzap-cordova
+    url: https://www.npmjs.com/package/heyzap-cordova
+    install: cordova plugin add heyzap-cordova
+    version: 1.5.1
+    license: MIT
+    official: true
+    source_repo: https://github.com/Heyzap/heyzap-cordova
+    description: Heyzap Ads SDK plugin for Apache Cordova / Adobe PhoneGap.
+  - language: objective-c
+    registry: github
+    name: heyzap-ios
+    url: https://github.com/Heyzap/ios-example-app
+    official: true
+    description: >-
+      Heyzap Ads SDK for iOS (distributed via GitHub / direct download and
+      CocoaPods, not a package-registry entry). Example integration app.
+  - language: java
+    registry: github
+    name: heyzap-android
+    url: https://github.com/Heyzap/android-example-app
+    official: true
+    description: >-
+      Heyzap Ads SDK for Android (distributed via GitHub / direct download).
+      Example integration app.
+mediation_adapters:
+  note: >-
+    First-party Cordova mediation adapter plugins published alongside the core
+    SDK by the Heyzap npm maintainer (emory_heyzap). Bridge third-party ad
+    networks into the Heyzap Cordova plugin; official but network-specific.
+  packages:
+    - heyzap-cordova-admob
+    - heyzap-cordova-applovin
+    - heyzap-cordova-unityads
+    - heyzap-cordova-vungle
+    - heyzap-cordova-chartboost
+    - heyzap-cordova-adcolony
+    - heyzap-cordova-leadbolt
+    - heyzap-cordova-facebook_audience_network
+    - heyzap-cordova-extras
+community_packages:
+  - language: javascript
+    registry: npm
+    name: react-native-heyzap
+    url: https://www.npmjs.com/package/react-native-heyzap
+    official: false
+    maintainer: react-native-contrib community
