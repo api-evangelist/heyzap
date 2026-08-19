@@ -36,7 +36,7 @@ x-status: defunct
 x-status-note: >-
   Acquired by Fyber (2016), now part of Digital Turbine. Domain parked/for-sale;
   developer site offline. SDKs are historical and unmaintained.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
